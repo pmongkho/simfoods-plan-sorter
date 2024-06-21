@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Plan Sorter</title>
+</head>
+<body>
+    <h1>PDF Plan Sorter</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="weights">Upload Weights PDF:</label><br>
+        <input type="file" id="weights" name="weights"><br><br>
+
+        <label for="batches">Upload Batches PDF:</label><br>
+        <input type="file" id="batches" name="batches"><br><br>
+
+        <label for="can1">Enter Can1 Plans:</label><br>
+        <textarea id="can1" name="can1" rows="4" cols="50"></textarea><br><br>
+
+        <label for="hydro">Enter Hydro Plans:</label><br>
+        <textarea id="hydro" name="hydro" rows="4" cols="50"></textarea><br><br>
+
+        <label for="line3">Enter Line3 Plans:</label><br>
+        <textarea id="line3" name="line3" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
